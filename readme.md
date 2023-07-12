@@ -1,17 +1,19 @@
 # INTRODUCCIÓN
 ### Nuestro segundo proyecto está basado en datos de la emprea de telecomunicaciones ENACOM en Argentina,  y el análisis exploratorio de los mismos, el cual debemos entregar en este informe. He extraído de la web de ENACOM, diferentes archivos csv, de los cuales he elegido algunos para luego poder desarrollar mi Dashboard y crear los 3 kpi's solicitados. 
+### He seleccionado tamabién un csv externo con los datos de latitud y longitud de las distintas provincias.
 ### En este informe solo nos enfocarems en contar los EDA realizados.
 
 # ANALISIS EXPLORATORIO DE LOS DATOS
 ### En este proyecto realizaré un análisis basado en la industria de la telecomunicaciones principalmente el acceso a internet, tanto del tipo de tecnología, como la velocidad media de bajada contratada, como analizar el internet fijo cada 100 hogares y los  ingresos de este servicio a nivel nacional.
 
 ## Elección de la fuente de datos
-### Nuestra fuenta de datos está dentro de la página web de ENACOM. He intentado por intermedio de su API descargar los csv, pero al tener muchos errores, los cules he intentado de solucionar, decidí descargarlos manualmente (por falta de tiempo y que no me alcanzara el mismo para todo el proceso).
+### Nuestra fuenta de datos está dentro de la página web de ENACOM. He intentado por intermedio de su API descargar los csv, pero al tener muchos errores, los cuales he intentado de solucionar, decidí descargarlos manualmente (por falta de tiempo y que no me alcanzara el mismo para todo el proceso).
 
 ### Luego de analizar todos los csv, he decido seleccionar algunos de ellos para mi análisis y futuras conclusiones. 
 
 ## Fuente de datos
 ### [DATASETS](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/)
+### [DATASETS EXTERNO](https://datos.gob.ar/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.9)
 ### He descargado los datos manualmente, debido a que por intermedio de la api he tenido algunos inconvenientes. Luego de estudiar los archivos he escogido los siguientes:  
 
 ### * Penetración de Internet fijo (accesos por cada 100 hogares) en provincia(trimestral),esta elección has sido para valorar a nivel de provincias la realidad en cada una de ella por cada 100 hogares que es un histórico del 2014 hasta el tercer trimestre del 2022.    
